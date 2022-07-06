@@ -36,11 +36,11 @@ function mouseOut() {
 mobileCompany.addEventListener("click", function(){
     if (mobileSublist2.classList.contains('hidden')) {
         mobileSublist2.classList.remove('hidden')
-        arrowTwo.setAttribute('src', '/images/icon-arrow-up.svg')
+        arrowTwo.setAttribute('src', 'images/icon-arrow-up.svg')
         
     } else {
         mobileSublist2.classList.add('hidden')
-        arrowTwo.setAttribute('src', '/images/icon-arrow-down.svg')
+        arrowTwo.setAttribute('src', 'images/icon-arrow-down.svg')
         
     }
 })
@@ -64,10 +64,10 @@ function mouseOutFeatures() {
 mobileFeatures.addEventListener("click", function(){
     if (mobileSublist1.classList.contains('hidden')) {
         mobileSublist1.classList.remove('hidden')
-        arrow.setAttribute('src', '/images/icon-arrow-up.svg')
+        arrow.setAttribute('src', 'images/icon-arrow-up.svg')
     } else {
         mobileSublist1.classList.add('hidden')
-        arrow.setAttribute('src', '/images/icon-arrow-down.svg')
+        arrow.setAttribute('src', 'images/icon-arrow-down.svg')
     }
 })
 
