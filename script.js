@@ -82,6 +82,8 @@ mobileToggle.addEventListener("click", function(){
 hamburger.addEventListener("click", function(){
     if (mobileNav.classList.contains('hidden')) {
         mobileNav.classList.remove('hidden');
+        mobileSublist1.classList.add('hidden')
+        mobileSublist2.classList.add('hidden')
     } else {
         mobileNav.classList.add('hidden')
     }
