@@ -2,6 +2,7 @@ const company = document.querySelector("#company");
 const sublist2 = document.querySelector("#sublist2");
 const features = document.querySelector("#features");
 const sublist1 = document.querySelector("#sublist1");
+const body = document.querySelector("#body");
 
 const mobileCompany = document.querySelector("#mobileCompany");
 const mobileSublist2 = document.querySelector("#mobileSublist2");
@@ -80,7 +81,7 @@ mobileToggle.addEventListener("click", function(){
 })
 hamburger.addEventListener("click", function(){
     if (mobileNav.classList.contains('hidden')) {
-        mobileNav.classList.remove('hidden')
+        mobileNav.classList.remove('hidden');
     } else {
         mobileNav.classList.add('hidden')
     }
